@@ -26,6 +26,8 @@ data 폴더를 만들고, 그 안에 hotel-manual.md 파일을 만들어줘.
 체크인 절차, 객실 업그레이드 정책, 컴플레인 대응 내용을 포함해줘.
 ```
 
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
 ***
 
 ## Step 2: 파일을 참고하여 요청하기 📌
@@ -39,6 +41,10 @@ data 폴더를 만들고, 그 안에 hotel-manual.md 파일을 만들어줘.
 ```
 
 > 💡 **핵심**: `@파일명`으로 파일을 참조하면 AI가 그 내용을 읽고 참고합니다!
+
+
+
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
