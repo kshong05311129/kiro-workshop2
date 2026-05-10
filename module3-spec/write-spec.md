@@ -33,7 +33,7 @@ graph LR
 
 Kiro IDE에서 **Spec 패널**을 열어봅시다:
 
-1. 왼쪽 사이드바에서 ![](../.gitbook/assets/image.png) 아이콘 클릭 (또는 상단 메뉴)
+1. 왼쪽 사이드바에서 <img src="../.gitbook/assets/image (4).png" alt="" data-size="original"> 아이콘 클릭 (또는 상단 메뉴)
 2. **"+ Create New Spec"** 클릭
 3. 다음 내용을 입력후 엔터 클릭
 
@@ -55,11 +55,15 @@ Kiro IDE에서 **Spec 패널**을 열어봅시다:
 - data/hotel-manual.md 파일의 내용을 검색 대상으로 사용
 ```
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 4. 오른쪽 패널에 "Input required"에서 **Build a Feature** 선택 후 "Submit answer" 클릭
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+
+5. 오른쪽 패널에 "Input required"에서 **Requirements** 선택 후 "Submit answer" 클릭
+
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -88,6 +92,18 @@ AI가 여러분의 요청을 분석해서 **구조화된 Spec**을 만들어줍�
 - [ ] Task 4: UI 스타일링
 - [ ] Task 5: 인기 검색어 기능
 ```
+
+1. Requirements
+
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
+2. Design
+
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+
+3. Task list
+
+
 
 ***
 
