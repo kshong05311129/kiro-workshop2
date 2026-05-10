@@ -35,7 +35,7 @@ Kiro AI 채팅창에 다음과 같이 입력하세요:
 AI가 코드를 생성하면:
 
 1. 파일이 자동으로 생성됩니다 (예: `reservation-email.html`)
-2. 파일을 우클릭 > **Open with Live Server** 또는 브라우저로 열기
+2. 파일 탐색기(Windows) 또는 Finder(Mac)에서 해당 파일을 **더블클릭**하면 브라우저에서 열립니다
 3. 입력 폼이 보이는지 확인!
 
 ---
