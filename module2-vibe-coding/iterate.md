@@ -26,6 +26,8 @@ AI와의 대화도 이렇게 **주고받으면서** 완성해가는 거예요!
 - 상단에 "LOTTE HOTEL" 로고 텍스트 추가
 ```
 
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
 ***
 
 ## Step 2: 기능 추가 요청 ⚡

@@ -44,7 +44,7 @@ data 폴더를 만들고, 그 안에 hotel-manual.md 파일을 만들어줘.
 
 
 
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -58,7 +58,7 @@ data 폴더를 만들고, 그 안에 hotel-manual.md 파일을 만들어줘.
 드롭다운으로 상황을 선택하면 대응 방법이 나오게 해줘.
 ```
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 객실 업그레이드 판단 도우미
 
@@ -68,7 +68,7 @@ data 폴더를 만들고, 그 안에 hotel-manual.md 파일을 만들어줘.
 고객 등급과 상황을 선택하면 가능/불가능을 알려주는 형태로.
 ```
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
