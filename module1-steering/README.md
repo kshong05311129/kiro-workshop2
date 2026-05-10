@@ -1,8 +1,8 @@
-# 🧭 Module 1: Steering (방향 설정)
+# Module 1: Steering
 
 > ⏱️ 소요시간: 약 20분
 
----
+***
 
 ## 🎯 이번 모듈의 목표
 
@@ -24,24 +24,25 @@ graph TD
     C[Steering 설정] -->|AI가 역할을 이해| D[원하는 결과 🎉]
 ```
 
----
+***
 
 ## 📋 학습 순서
 
-| 단계 | 내용 | 설명 |
-|------|------|------|
-| 1️⃣ | [Steering이란?](what-is-steering.md) | 개념 이해하기 |
+| 단계  | 내용                                 | 설명       |
+| --- | ---------------------------------- | -------- |
+| 1️⃣ | [Steering이란?](what-is-steering.md) | 개념 이해하기  |
 | 2️⃣ | [Steering 작성하기](write-steering.md) | 직접 만들어보기 |
 
----
+***
 
 ## ✅ 완료 체크리스트
 
 이 모듈을 마치면:
-- [ ] Steering이 무엇인지 설명할 수 있다
-- [ ] Kiro에서 Steering 파일을 만들 수 있다
-- [ ] 호텔 업무에 맞는 Steering을 작성할 수 있다
 
----
+* [ ] Steering이 무엇인지 설명할 수 있다
+* [ ] Kiro에서 Steering 파일을 만들 수 있다
+* [ ] 호텔 업무에 맞는 Steering을 작성할 수 있다
+
+***
 
 👉 시작: [Steering이란?](what-is-steering.md)
