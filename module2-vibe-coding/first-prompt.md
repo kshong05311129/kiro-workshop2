@@ -37,7 +37,7 @@ AI가 코드를 생성하면:
 2. 파일 탐색기(Windows) 또는 Finder(Mac)에서 해당 파일을 **더블클릭**하면 브라우저에서 열립니다
 3. 입력 폼이 보이는지 확인!
 
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -54,7 +54,7 @@ AI가 코드를 생성하면:
 
 메일 내용이 자동으로 생성되나요? 🎉
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
