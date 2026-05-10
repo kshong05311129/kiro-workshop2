@@ -41,6 +41,7 @@ graph LR
 | ⏱️ 30분 | [Module 2: Vibe Coding](module2-vibe-coding/) | 대화로 코딩하기      |
 | ⏱️ 30분 | [Module 3: Spec 기반 개발](module3-spec/)         | 체계적으로 만들기     |
 | ⏱️ 25분 | [Module 4: 자유 실습](module4-challenge/)         | 나만의 도구 만들기    |
+| ⏱️ 20분 | [Module 5: MCP 연동](module5-mcp/)               | AI에 웹검색 능력 부여 |
 | ⏱️ 10분 | [마무리](summary/)                               | 정리 및 Q\&A     |
 
 ***

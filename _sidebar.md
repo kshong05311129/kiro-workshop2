@@ -24,5 +24,10 @@
   - [Module 4 소개](module4-challenge/)
   - [실습 주제 선택](module4-challenge/topics.md)
 
+- **Module 5: MCP 연동**
+  - [Module 5 소개](module5-mcp/)
+  - [MCP 설정하기](module5-mcp/setup-mcp.md)
+  - [호텔 동향 리서치](module5-mcp/hotel-news.md)
+
 - **마무리**
   - [정리 & 다음 단계](summary/)
