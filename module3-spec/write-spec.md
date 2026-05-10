@@ -33,9 +33,9 @@ graph LR
 
 Kiro IDE에서 **Spec 패널**을 열어봅시다:
 
-1. 왼쪽 사이드바에서 **Specs** 아이콘 클릭 (또는 상단 메뉴)
-2. **"+ New Spec"** 클릭
-3. 다음 내용을 입력:
+1. 왼쪽 사이드바에서 ![](../.gitbook/assets/image.png) 아이콘 클릭 (또는 상단 메뉴)
+2. **"+ Create New Spec"** 클릭
+3. 다음 내용을 입력후 엔터 클릭
 
 ```
 호텔 서비스 매뉴얼 검색 도우미를 만들어줘.
@@ -54,6 +54,12 @@ Kiro IDE에서 **Spec 패널**을 열어봅시다:
 데이터:
 - data/hotel-manual.md 파일의 내용을 검색 대상으로 사용
 ```
+
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
+4. 오른쪽 패널에 "Input required"에서 **Build a Feature** 선택 후 "Submit answer" 클릭
+
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
