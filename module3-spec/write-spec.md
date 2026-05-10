@@ -103,7 +103,7 @@ AI가 여러분의 요청을 분석해서 **구조화된 Spec**을 만들어줍�
 
 3. Task list
 
-
+<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
