@@ -73,7 +73,7 @@ https://raw.githubusercontent.com/kshong05311129/kiro-workshop2/main/data/hotel_
 
 > 💡 이 파일은 2026년 4월 호텔 운영 데이터(예약, 객실, 매출 등)입니다.
 
----
+***
 
 ## 실습 1: Skill 만들기 🎯
 
@@ -126,9 +126,9 @@ description: 호텔 운영 CSV 데이터를 분석하여 일일 보고서를 생
 
 생성된 HTML 파일을 파일 탐색기(Windows) 또는 Finder(Mac)에서 **더블클릭**하면 차트가 포함된 보고서를 확인할 수 있습니다! 📊
 
-<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
----
+***
 
 ## 실습 2: Hook 설정하기 ⚡
 
@@ -138,9 +138,7 @@ Kiro 왼쪽 패널에서 **Agent Hooks** 섹션을 찾아 **+** 버튼을 클릭
 
 <div data-with-frame="true"><figure><img src="../.gitbook/assets/kiro-skill.png" alt=""><figcaption></figcaption></figure></div>
 
-
-
-**"Ask Kiro to create a hook"** 을 선택하고&#x20;
+**"Ask Kiro to create a hook"** 을 선택하고
 
 <figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
@@ -168,6 +166,12 @@ CSV 파일이 저장되면, 자동으로 Premium Suite 고객과 특별 요청�
 > 🎉 **저장하는 순간, AI가 자동으로 VIP 리스트를 생성합니다!** 아무것도 시키지 않았는데 알아서 동작하죠?
 
 이것이 Hook의 힘입니다. 한 번 설정하면 매번 요청하지 않아도 자동으로 실행됩니다.
+
+<figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+
+
 
 ***
 
