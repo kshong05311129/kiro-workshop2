@@ -126,7 +126,7 @@ description: 호텔 운영 CSV 데이터를 분석하여 일일 보고서를 생
 
 생성된 HTML 파일을 파일 탐색기(Windows) 또는 Finder(Mac)에서 **더블클릭**하면 차트가 포함된 보고서를 확인할 수 있습니다! 📊
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
