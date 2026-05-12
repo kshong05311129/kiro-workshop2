@@ -136,11 +136,23 @@ description: 호텔 운영 CSV 데이터를 분석하여 일일 보고서를 생
 
 Kiro 왼쪽 패널에서 **Agent Hooks** 섹션을 찾아 **+** 버튼을 클릭합니다.
 
-**"Ask Kiro to create a hook"** 을 선택하고 아래 내용을 입력하세요:
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/kiro-skill.png" alt=""><figcaption></figcaption></figure></div>
+
+
+
+**"Ask Kiro to create a hook"** 을 선택하고&#x20;
+
+<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+
+아래 내용을 오른쪽 인터페이스에 입력하세요:
 
 ```
 CSV 파일이 생성되거나 저장되면, 자동으로 Premium Suite 고객과 특별 요청이 있는 고객 목록을 정리해서 vip-list.html 파일로 만들어줘. 롯데호텔 브랜드 색상으로 예쁘게 만들어줘.
 ```
+
+<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+
+
 
 ### Step 2: Hook 동작 확인
 
