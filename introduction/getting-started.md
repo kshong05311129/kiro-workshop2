@@ -62,7 +62,20 @@ graph TD
 
 ***
 
-## Step 4: 잘 되는지 확인하기 ✅
+## Step 4: 실습 데이터 준비 📄
+
+Kiro AI 채팅창에 아래 내용을 그대로 입력하세요:
+
+```
+아래 URL의 내용을 다운로드해서 data/hotel-manual.md 파일로 저장해줘
+https://raw.githubusercontent.com/kshong05311129/kiro-workshop2/main/data/hotel-manual.md
+```
+
+> 💡 이 파일은 롯데호텔 서비스 매뉴얼 데이터입니다. 이후 실습에서 검색 대상으로 사용됩니다.
+
+***
+
+## Step 5: 잘 되는지 확인하기 ✅
 
 Kiro IDE 화면에서 아래를 확인하세요:
 
