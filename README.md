@@ -39,9 +39,10 @@ graph LR
 | ⏱️ 15분 | [소개 & 환경설정](introduction/)                    | Kiro 설치 및 로그인 |
 | ⏱️ 20분 | [Module 1: Steering](module1-steering/)       | AI에게 역할 부여하기  |
 | ⏱️ 30분 | [Module 2: Vibe Coding](module2-vibe-coding/) | 대화로 코딩하기      |
-| ⏱️ 30분 | [Module 3: Spec 기반 개발](module3-spec/)         | 체계적으로 만들기     |
-| ⏱️ 25분 | [Module 4: 자유 실습](module4-challenge/)         | 나만의 도구 만들기    |
-| ⏱️ 20분 | [Module 5: MCP 연동](module5-mcp/)               | AI에 웹검색 능력 부여 |
+| ⏱️ 15분 | [Module 3: Hook & Skill](module3-hook-skill/) | 자동화 & 단축 명령   |
+| ⏱️ 30분 | [Module 4: Spec 기반 개발](module3-spec/)         | 체계적으로 만들기     |
+| ⏱️ 25분 | [Module 5: 자유 실습](module4-challenge/)         | 나만의 도구 만들기    |
+| ⏱️ 20분 | [Module 6: MCP 연동](module5-mcp/)               | AI에 웹검색 능력 부여 |
 | ⏱️ 10분 | [마무리](summary/)                               | 정리 및 Q\&A     |
 
 ***

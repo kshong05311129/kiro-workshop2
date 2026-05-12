@@ -15,17 +15,20 @@
   - [반복 개선하기](module2-vibe-coding/iterate.md)
   - [파일 컨텍스트](module2-vibe-coding/file-context.md)
 
-- **Module 3: Spec 기반 개발**
-  - [Module 3 소개](module3-spec/)
+- **Module 3: Hook & Skill**
+  - [Module 3 소개](module3-hook-skill/)
+
+- **Module 4: Spec 기반 개발**
+  - [Module 4 소개](module3-spec/)
   - [Spec 작성하기](module3-spec/write-spec.md)
   - [Task 실행하기](module3-spec/run-tasks.md)
 
-- **Module 4: 자유 실습**
-  - [Module 4 소개](module4-challenge/)
+- **Module 5: 자유 실습**
+  - [Module 5 소개](module4-challenge/)
   - [실습 주제 선택](module4-challenge/topics.md)
 
-- **Module 5: MCP 연동**
-  - [Module 5 소개](module5-mcp/)
+- **Module 6: MCP 연동**
+  - [Module 6 소개](module5-mcp/)
   - [MCP 설정하기](module5-mcp/setup-mcp.md)
   - [호텔 동향 리서치](module5-mcp/hotel-news.md)
 
