@@ -62,46 +62,20 @@ graph LR
 
 ***
 
-## 실습 1: Hook 설정하기 ⚡
+## 실습 준비: 데이터 다운로드 📄
 
-### Step 1: Hook 만들기
-
-Kiro 왼쪽 패널에서 **Agent Hooks** 섹션을 찾아 **+** 버튼을 클릭합니다.
-
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/kiro-skill.png" alt=""><figcaption></figcaption></figure></div>
-
-
-
-**"Ask Kiro to create a hook"** 을 선택하고&#x20;
-
-<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
-
-아래 내용을 오른쪽 인터페이스에 입력하세요:
-
-```
-CSV 파일이 생성되거나 저장되면, 자동으로 Premium Suite 고객과 특별 요청이 있는 고객 목록을 정리해서 vip-list.html 파일로 만들어줘. 롯데호텔 브랜드 색상으로 예쁘게 만들어줘.
-```
-
-<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
-
-### Step 2: 데이터 다운로드 → Hook 자동 실행!
-
-이제 AI 채팅창에 아래 내용을 입력하세요:
+AI 채팅창에 아래 내용을 입력하세요:
 
 ```
 아래 URL의 내용을 다운로드해서 data/hotel_operations_april2026.csv 파일로 저장해줘
 https://raw.githubusercontent.com/kshong05311129/kiro-workshop2/main/data/hotel_operations_april2026.csv
 ```
 
-CSV 파일이 생성되면 **아무것도 시키지 않았는데** Hook이 자동으로 실행되어 VIP 리스트가 생성됩니다!
+> 💡 이 파일은 2026년 4월 호텔 운영 데이터(예약, 객실, 매출 등)입니다.
 
-> 🎉 **이것이 Hook의 힘입니다!** 한 번 설정하면 매번 요청하지 않아도 자동으로 실행됩니다.
+---
 
-> 💡 이 CSV 파일은 2026년 4월 호텔 운영 데이터(예약, 객실, 매출 등)입니다. 다음 Skill 실습에서도 사용합니다.
-
-***
-
-## 실습 2: Skill 만들기 🎯
+## 실습 1: Skill 만들기 🎯
 
 ### Step 1: Skill 파일 생성
 
@@ -153,6 +127,47 @@ description: 호텔 운영 CSV 데이터를 분석하여 일일 보고서를 생
 생성된 HTML 파일을 파일 탐색기(Windows) 또는 Finder(Mac)에서 **더블클릭**하면 차트가 포함된 보고서를 확인할 수 있습니다! 📊
 
 <figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+
+---
+
+## 실습 2: Hook 설정하기 ⚡
+
+### Step 1: Hook 만들기
+
+Kiro 왼쪽 패널에서 **Agent Hooks** 섹션을 찾아 **+** 버튼을 클릭합니다.
+
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/kiro-skill.png" alt=""><figcaption></figcaption></figure></div>
+
+
+
+**"Ask Kiro to create a hook"** 을 선택하고&#x20;
+
+<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+
+아래 내용을 오른쪽 인터페이스에 입력하세요:
+
+```
+CSV 파일이 저장되면, 자동으로 Premium Suite 고객과 특별 요청이 있는 고객 목록을 정리해서 vip-list.html 파일로 만들어줘. 롯데호텔 브랜드 색상으로 예쁘게 만들어줘.
+```
+
+<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+
+### Step 2: Hook 동작 확인
+
+이제 Hook이 잘 동작하는지 확인해봅시다!
+
+1. 왼쪽 파일 탐색기에서 `data/hotel_operations_april2026.csv` 파일을 **더블클릭**하여 엽니다
+2. 맨 아래 줄에 아래 데이터를 **한 줄 추가**합니다:
+
+```
+2026-04-30,RES-240430-001,홍길동,Premium Suite,2001,2026-04-30,2026-05-02,2,2,0,800000,200000,1800000,Paid,KR,Direct,Anniversary,와인 준비
+```
+
+3. 저장합니다 (Mac: `⌘+S` / Windows: `Ctrl+S`)
+
+> 🎉 **저장하는 순간, AI가 자동으로 VIP 리스트를 생성합니다!** 아무것도 시키지 않았는데 알아서 동작하죠?
+
+이것이 Hook의 힘입니다. 한 번 설정하면 매번 요청하지 않아도 자동으로 실행됩니다.
 
 ***
 
