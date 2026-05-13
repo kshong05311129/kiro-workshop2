@@ -30,7 +30,7 @@
 - **Module 6: MCP 연동**
   - [Module 6 소개](module5-mcp/)
   - [MCP 설정하기](module5-mcp/setup-mcp.md)
-  - [호텔 동향 리서치](module5-mcp/hotel-news.md)
+  - [MCP 활용 실습](module5-mcp/hotel-news.md)
 
 - **마무리**
   - [정리 & 다음 단계](summary/)

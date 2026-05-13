@@ -2,13 +2,13 @@
 
 ## 🎯 목표
 
-Kiro에 **웹서치 MCP**를 연결해서 AI가 인터넷 검색을 할 수 있게 만듭니다.
+Kiro에 **AWS 문서 MCP**를 연결해서 AI가 외부 지식에 접근할 수 있게 만듭니다.
 
 ---
 
-## 사전 준비: Node.js 설치 📦
+## 사전 준비: uv 설치 📦
 
-MCP 서버를 실행하려면 **Node.js**가 필요합니다. 이미 설치되어 있는지 먼저 확인해봅시다.
+MCP 서버를 실행하려면 **uv**가 필요합니다. 이미 설치되어 있는지 먼저 확인해봅시다.
 
 ### 설치 여부 확인
 
@@ -17,29 +17,31 @@ Kiro IDE 하단 터미널에서 아래 명령어를 입력하세요:
 > 💡 터미널 여는 법: 상단 메뉴 **Terminal → New Terminal** 또는 `` Ctrl+` ``
 
 ```
-node --version
+uvx --version
 ```
 
-- `v18.x.x` 이상 나오면 → ✅ 설치 완료! Step 1로 넘어가세요
+- 버전이 나오면 → ✅ 설치 완료! Step 1로 넘어가세요
 - "command not found" 또는 에러 → 아래 설치를 진행하세요
 
 ### Windows 설치
 
-1. https://nodejs.org 접속
-2. **LTS** 버전 "Download" 클릭
-3. 다운로드된 `.msi` 파일 더블클릭
-4. "Next → Next → Next → Install" (전부 기본값)
-5. Kiro IDE를 **재시작**
-6. 터미널에서 `node --version`으로 확인
+터미널에서 아래 명령어를 실행하세요:
+
+```
+powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
+```
+
+설치 후 Kiro IDE를 **재시작**하세요.
 
 ### Mac 설치
 
-1. https://nodejs.org 접속
-2. **LTS** 버전 "Download" 클릭
-3. 다운로드된 `.pkg` 파일 더블클릭
-4. "계속 → 계속 → 설치" (전부 기본값)
-5. Kiro IDE를 **재시작**
-6. 터미널에서 `node --version`으로 확인
+터미널에서 아래 명령어를 실행하세요:
+
+```
+curl -LsSf https://astral.sh/uv/install.sh | sh
+```
+
+설치 후 Kiro IDE를 **재시작**하세요.
 
 ---
 
@@ -60,18 +62,15 @@ node --version
 ```json
 {
   "mcpServers": {
-    "web-research": {
-      "command": "npx",
+    "aws-docs": {
+      "command": "uvx",
       "args": [
-        "-y",
-        "@mzxrai/mcp-webresearch"
+        "awslabs.aws-documentation-mcp-server@latest"
       ],
-      "disabled": false,
-      "autoApprove": [
-        "search_google",
-        "visit_page",
-        "take_screenshot"
-      ]
+      "env": {
+        "FASTMCP_LOG_LEVEL": "ERROR"
+      },
+      "disabled": false
     }
   }
 }
@@ -93,10 +92,10 @@ node --version
 채팅창에 다음과 같이 입력해보세요:
 
 ```
-오늘 날씨 검색해줘
+AWS S3가 뭔지 공식 문서에서 찾아서 설명해줘
 ```
 
-AI가 웹 검색을 시도하면 성공입니다! 🎉
+AI가 AWS 공식 문서를 검색해서 답변하면 성공입니다! 🎉
 
 > 💡 처음 실행 시 약간의 시간이 걸릴 수 있습니다 (패키지 다운로드)
 
@@ -109,14 +108,14 @@ AI가 웹 검색을 시도하면 성공입니다! 🎉
 - JSON 형식이 정확한지 확인 (중괄호, 쉼표 등)
 - Kiro를 재시작해보세요
 
-### "npx 명령어를 찾을 수 없어요"
-- Node.js가 설치되어 있어야 합니다
-- 워크샵 환경 설정에서 Node.js를 설치했는지 확인하세요
+### "uvx 명령어를 찾을 수 없어요"
+- 위 사전 준비 단계에서 uv를 설치했는지 확인하세요
+- 설치 후 Kiro IDE를 재시작했는지 확인하세요
 
 ---
 
-> ✅ **완료!** 이제 AI가 인터넷 검색을 할 수 있습니다. 실습으로 넘어가볼까요?
+> ✅ **완료!** 이제 AI가 AWS 공식 문서에 접근할 수 있습니다. 실습으로 넘어가볼까요?
 
 ---
 
-👉 다음: [호텔 업계 동향 리서치](hotel-news.md)
+👉 다음: [MCP 활용 실습](hotel-news.md)

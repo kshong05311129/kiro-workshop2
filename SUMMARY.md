@@ -18,5 +18,5 @@
   * [실습 주제 선택](module4-challenge/topics.md)
 * [Module 6: MCP 연동](module5-mcp/README.md)
   * [🔧 MCP 설정하기](module5-mcp/setup-mcp.md)
-  * [🏨 호텔 동향 리서치](module5-mcp/hotel-news.md)
+  * [🔌 MCP 활용 실습](module5-mcp/hotel-news.md)
 * [마무리](summary/README.md)
