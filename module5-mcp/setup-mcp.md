@@ -64,7 +64,7 @@ node --version
       "command": "npx",
       "args": [
         "-y",
-        "@anthropic-ai/web-research-mcp@latest"
+        "@mzxrai/mcp-webresearch"
       ],
       "disabled": false,
       "autoApprove": [
