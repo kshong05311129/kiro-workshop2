@@ -62,8 +62,8 @@ graph TD
 | 자료             | 링크                                                                                         |
 | -------------- | ------------------------------------------------------------------------------------------ |
 | Kiro 공식 문서     | [kiro.dev/docs](https://kiro.dev/docs)                                                     |
-| Book of Kiro   | [kiro-community.github.io/book-of-kiro](https://kiro-community.github.io/book-of-kiro/en/) |
-| Kiro Community | [github.com/kiro-community](https://github.com/kiro-community)                             |
+| Kiro FAQ       | [kiro.dev/faq](https://kiro.dev/faq/)                                                      |
+| Kiro GitHub    | [github.com/kirodotdev/Kiro](https://github.com/kirodotdev/Kiro)                           |
 
 ***
 
